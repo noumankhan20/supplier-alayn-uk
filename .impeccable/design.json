@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T00:00:00Z",
+  "title": "Design System: Alayn Suppliers",
+  "extensions": {
+    "colorMeta": {
+      "ink-red": { "role": "primary", "displayName": "Ink Crimson", "canonical": "oklch(52.9% 0.198 24.6)", "tonalRamp": ["oklch(15% 0.093 24.6)", "oklch(25% 0.127 24.6)", "oklch(35% 0.160 24.6)", "oklch(45% 0.193 24.6)", "oklch(58% 0.183 24.6)", "oklch(70% 0.143 24.6)", "oklch(82% 0.103 24.6)", "oklch(95% 0.060 24.6)"] },
+      "ink-red-deep": { "role": "primary", "displayName": "Deep Crimson", "canonical": "oklch(47.1% 0.177 24.7)", "tonalRamp": ["oklch(15% 0.093 24.7)", "oklch(25% 0.127 24.7)", "oklch(35% 0.160 24.7)", "oklch(45% 0.177 24.7)", "oklch(58% 0.177 24.7)", "oklch(70% 0.143 24.7)", "oklch(82% 0.103 24.7)", "oklch(95% 0.060 24.7)"] },
+      "ink-navy": { "role": "secondary", "displayName": "Ink Navy", "canonical": "oklch(28.9% 0.062 263.9)", "tonalRamp": ["oklch(15% 0.062 263.9)", "oklch(25% 0.062 263.9)", "oklch(35% 0.062 263.9)", "oklch(45% 0.062 263.9)", "oklch(58% 0.062 263.9)", "oklch(70% 0.062 263.9)", "oklch(82% 0.062 263.9)", "oklch(95% 0.060 263.9)"] },
+      "carbon-pink": { "role": "tertiary", "displayName": "Carbon Pink", "canonical": "oklch(89.5% 0.037 11.6)", "tonalRamp": ["oklch(15% 0.037 11.6)", "oklch(25% 0.037 11.6)", "oklch(35% 0.037 11.6)", "oklch(45% 0.037 11.6)", "oklch(58% 0.037 11.6)", "oklch(70% 0.037 11.6)", "oklch(82% 0.037 11.6)", "oklch(95% 0.037 11.6)"] },
+      "carbon-yellow": { "role": "tertiary", "displayName": "Carbon Yellow", "canonical": "oklch(91.7% 0.079 95.8)", "tonalRamp": ["oklch(15% 0.079 95.8)", "oklch(25% 0.079 95.8)", "oklch(35% 0.079 95.8)", "oklch(45% 0.079 95.8)", "oklch(58% 0.079 95.8)", "oklch(70% 0.079 95.8)", "oklch(82% 0.079 95.8)", "oklch(95% 0.060 95.8)"] },
+      "desk": { "role": "neutral", "displayName": "Desk Grey", "canonical": "oklch(94.2% 0.007 260.7)", "tonalRamp": ["oklch(15% 0.007 260.7)", "oklch(25% 0.007 260.7)", "oklch(35% 0.007 260.7)", "oklch(45% 0.007 260.7)", "oklch(58% 0.007 260.7)", "oklch(70% 0.007 260.7)", "oklch(82% 0.007 260.7)", "oklch(95% 0.007 260.7)"] },
+      "pad-paper": { "role": "neutral", "displayName": "Pad Paper", "canonical": "oklch(98.5% 0.005 95.1)", "tonalRamp": ["oklch(15% 0.005 95.1)", "oklch(25% 0.005 95.1)", "oklch(35% 0.005 95.1)", "oklch(45% 0.005 95.1)", "oklch(58% 0.005 95.1)", "oklch(70% 0.005 95.1)", "oklch(82% 0.005 95.1)", "oklch(95% 0.005 95.1)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#FFFFFF" },
+      "ink-soft": { "role": "neutral", "displayName": "Soft Ink", "canonical": "oklch(44.6% 0.042 258.8)", "tonalRamp": ["oklch(15% 0.042 258.8)", "oklch(25% 0.042 258.8)", "oklch(35% 0.042 258.8)", "oklch(45% 0.042 258.8)", "oklch(58% 0.042 258.8)", "oklch(70% 0.042 258.8)", "oklch(82% 0.042 258.8)", "oklch(95% 0.042 258.8)"] },
+      "muted": { "role": "neutral", "displayName": "Muted Slate", "canonical": "oklch(50.3% 0.041 258.8)", "tonalRamp": ["oklch(15% 0.041 258.8)", "oklch(25% 0.041 258.8)", "oklch(35% 0.041 258.8)", "oklch(45% 0.041 258.8)", "oklch(58% 0.041 258.8)", "oklch(70% 0.041 258.8)", "oklch(82% 0.041 258.8)", "oklch(95% 0.041 258.8)"] },
+      "pad-rule": { "role": "neutral", "displayName": "Rule", "canonical": "rgba(27, 42, 74, 0.10)" },
+      "pad-rule-strong": { "role": "neutral", "displayName": "Strong Rule", "canonical": "rgba(27, 42, 74, 0.22)" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only; second clause in Ink Crimson." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s." },
+      "headline-step": { "displayName": "Step Headline", "purpose": "How It Works step titles, with a handwritten crimson numeral." },
+      "title": { "displayName": "Title", "purpose": "Feature captions under each slip." },
+      "body": { "displayName": "Body", "purpose": "Step bodies and FAQ answers in Soft Ink." },
+      "body-lead": { "displayName": "Lead", "purpose": "Section leads." },
+      "label-printed": { "displayName": "Printed Label", "purpose": "Pre-printed form field names on paper; uppercase, Muted Slate." },
+      "mono-line": { "displayName": "Mono Line", "purpose": "All data written on paper: items, quantities, rates, amounts, names, order numbers." },
+      "stamp-heading": { "displayName": "Stamp Heading", "purpose": "Pre-printed sheet titles and the binding title; uppercase." },
+      "stamp-button": { "displayName": "Stamp Button", "purpose": "Primary call-to-action lettering; uppercase." },
+      "hand": { "displayName": "Hand", "purpose": "Short handwritten notes, corrections and dates only." }
+    },
+    "shadows": [
+      { "name": "pad-cast", "value": "drop-shadow(0 22px 26px rgba(27,42,74,0.16)) drop-shadow(0 2px 3px rgba(27,42,74,0.10))", "purpose": "CSS filter under every pad and torn slip; follows the torn mask." },
+      { "name": "loose-slip", "value": "0 10px 20px -14px rgba(27,42,74,0.5)", "purpose": "Fanned inbox orders." },
+      { "name": "price-tag", "value": "0 14px 24px -16px rgba(27,42,74,0.55)", "purpose": "The hanging yellow price tag." },
+      { "name": "divider-tab", "value": "0 6px 10px -6px rgba(0,0,0,0.45)", "purpose": "Index tabs on the navy band." },
+      { "name": "cta-lift", "value": "inset 0 0 0 3px #C41E2A, inset 0 0 0 4.5px rgba(255,255,255,0.6), 0 10px 20px -12px rgba(27,42,74,0.6)", "purpose": "Hero stamp button: inner double rule plus lift." },
+      { "name": "stamp-rule", "value": "inset 0 0 0 2px var(--pad-paper), inset 0 0 0 3.5px currentColor", "purpose": "Inner rule of rubber stamps." }
+    ],
+    "motion": [
+      { "name": "ease-out-paper", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Line reveals, strikes, tab slide, stamp-button straighten, FAQ plus." },
+      { "name": "line-type-in", "value": "clip-path inset(0 100% 0 0) -> inset(0 0 0 0), 0.5s, 380ms stagger", "purpose": "Purchase-order lines typing onto the sheet." },
+      { "name": "stamp-land", "value": "spring stiffness 560, damping 26, mass 0.7; from scale 1.7, rotate -9deg extra", "purpose": "Rubber stamp landing." },
+      { "name": "pad-knock", "value": "y [0, 4, 0], 0.24s easeOut, 0.06s delay", "purpose": "The pad takes the knock when a stamp lands." },
+      { "name": "sheet-tear", "value": "spring stiffness 170, damping 22; exit y -60, x 70, rotate 9deg, origin top-left", "purpose": "Top sheet tearing off the pinned pad." },
+      { "name": "spring-settle", "value": "spring stiffness 140, damping 22, mass 1", "purpose": "Section assemble-in reveals (y 26, scale 0.98)." },
+      { "name": "tick-pop", "value": "spring stiffness 500, damping 22", "purpose": "Dispatch tick marks." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Stamp Button (Primary)",
+      "kind": "button",
+      "refersTo": "button-stamp-primary",
+      "description": "Hero call to action: solid crimson with an inner double rule and stamp lettering.",
+      "html": "<a class=\"ds-btn-stamp\" href=\"#\"><span>Join as a supplier</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a>",
+      "css": ".ds-btn-stamp { display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 52px; padding: 0 28px; border-radius: 5px; background: #C41E2A; color: #fff; text-decoration: none; box-shadow: inset 0 0 0 3px #C41E2A, inset 0 0 0 4.5px rgba(255,255,255,0.6), 0 10px 20px -12px rgba(27,42,74,0.6); font-family: 'Big Shoulders', 'Arial Narrow', sans-serif; font-size: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; transition: background-color 0.2s, transform 0.2s; } .ds-btn-stamp svg { transition: transform 0.2s; } .ds-btn-stamp:hover { background: #A81822; box-shadow: inset 0 0 0 3px #A81822, inset 0 0 0 4.5px rgba(255,255,255,0.6), 0 10px 20px -12px rgba(27,42,74,0.6); } .ds-btn-stamp:hover svg { transform: translateX(2px); } .ds-btn-stamp:active { transform: translateY(1px); } .ds-btn-stamp:focus-visible { outline: 2px solid #C41E2A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Stamp Button (Outline)",
+      "kind": "button",
+      "refersTo": "button-stamp-outline",
+      "description": "Final CTA: a crimson rubber-stamp impression on paper that straightens and fills on hover.",
+      "html": "<a class=\"ds-btn-stamp-outline\" href=\"#\"><span>Join as a supplier</span></a>",
+      "css": ".ds-btn-stamp-outline { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 28px; border: 3px solid #C41E2A; border-radius: 5px; background: #FBFAF6; color: #C41E2A; text-decoration: none; box-shadow: inset 0 0 0 2px #FBFAF6, inset 0 0 0 4px #C41E2A; transform: rotate(-3deg); font-family: 'Big Shoulders', 'Arial Narrow', sans-serif; font-size: 22px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; transition: transform 0.3s cubic-bezier(0.16,1,0.3,1), background-color 0.3s cubic-bezier(0.16,1,0.3,1), color 0.3s cubic-bezier(0.16,1,0.3,1); } .ds-btn-stamp-outline:hover { transform: rotate(0deg); background: #C41E2A; color: #fff; } .ds-btn-stamp-outline:active { transform: scale(0.97); } .ds-btn-stamp-outline:focus-visible { outline: 2px solid #C41E2A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Underline Link",
+      "kind": "button",
+      "refersTo": "link-underline",
+      "description": "Secondary action: navy text with a soft underline that turns crimson.",
+      "html": "<a class=\"ds-link\" href=\"#\">See how it works</a>",
+      "css": ".ds-link { display: inline-flex; align-items: center; min-height: 44px; font-family: Inter, system-ui, sans-serif; font-size: 15px; font-weight: 600; color: #1B2A4A; text-decoration: underline; text-decoration-color: rgba(27,42,74,0.25); text-decoration-thickness: 2px; text-underline-offset: 6px; transition: text-decoration-color 0.15s; } .ds-link:hover { text-decoration-color: #C41E2A; } .ds-link:focus-visible { outline: 2px solid #C41E2A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Order Pad",
+      "kind": "card",
+      "refersTo": "pad-sheet",
+      "description": "Signature: navy binding, carbon copies, perforated top sheet with a purchase order, torn bottom edge.",
+      "html": "<div class=\"ds-pad\"><div class=\"ds-pad-carbon ds-pad-yellow\"></div><div class=\"ds-pad-carbon ds-pad-pink\"></div><div class=\"ds-pad-binding\"><span>Alayn · Purchase orders</span><em>Example</em></div><div class=\"ds-pad-sheet\"><div class=\"ds-pad-perf\"></div><div class=\"ds-pad-body\"><div class=\"ds-pad-head\"><span class=\"ds-pad-title\">Purchase order</span><span class=\"ds-pad-no\">Nº 1042</span></div><div class=\"ds-pad-line\"><span>Paneer</span><span>5 kg</span><span>₹1,600</span></div><div class=\"ds-pad-line\"><span>Curd</span><span>10 kg</span><span>₹950</span></div><div class=\"ds-pad-line\"><span>Milk</span><span>20 L</span><span class=\"ds-pad-hand\">rest 14 Nov</span></div><div class=\"ds-pad-total\"><span>Total</span><span>₹4,250</span></div></div></div></div>",
+      "css": ".ds-pad { --torn: linear-gradient(#000 0 0) top / 100% calc(100% - 7px) no-repeat, conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 12px 7px repeat-x; position: relative; max-width: 26rem; transform: rotate(-2deg); filter: drop-shadow(0 22px 26px rgba(27,42,74,0.16)) drop-shadow(0 2px 3px rgba(27,42,74,0.10)); } .ds-pad-carbon { position: absolute; inset: 0; border-radius: 6px 6px 0 0; -webkit-mask: var(--torn); mask: var(--torn); } .ds-pad-yellow { background: #F3E4A8; transform: translate(12px,15px) rotate(2.2deg); } .ds-pad-pink { background: #F4D3D6; transform: translate(6px,8px) rotate(1.1deg); } .ds-pad-binding { position: relative; z-index: 2; display: flex; align-items: center; justify-content: space-between; height: 36px; padding: 0 24px; border-radius: 6px 6px 0 0; background: #1B2A4A linear-gradient(180deg, rgba(255,255,255,0.07), transparent 60%); } .ds-pad-binding span { font-family: 'Big Shoulders', 'Arial Narrow', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(255,255,255,0.85); } .ds-pad-binding em { font-style: normal; font-family: Inter, sans-serif; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.15); padding: 2px 6px; border-radius: 2px; } .ds-pad-sheet { position: relative; z-index: 1; background: #FBFAF6; -webkit-mask: var(--torn); mask: var(--torn); } .ds-pad-perf { height: 8px; background: radial-gradient(circle, rgba(27,42,74,0.28) 1.3px, transparent 1.8px) 0 50% / 9px 8px repeat-x; } .ds-pad-body { padding: 12px 24px 40px; } .ds-pad-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; } .ds-pad-title { font-family: 'Big Shoulders', 'Arial Narrow', sans-serif; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.16em; color: #1B2A4A; } .ds-pad-no { font-family: 'Geist Mono', ui-monospace, monospace; font-size: 15px; font-weight: 600; color: #C41E2A; } .ds-pad-line { display: grid; grid-template-columns: 1fr 3.6rem 5.2rem; gap: 8px; padding: 8px 0; border-bottom: 1px solid rgba(27,42,74,0.10); font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; font-variant-numeric: tabular-nums; color: #1B2A4A; } .ds-pad-line span + span { text-align: right; } .ds-pad-hand { font-family: Kalam, 'Comic Sans MS', cursive; font-size: 15px; font-weight: 700; color: #C41E2A; transform: rotate(-3deg); } .ds-pad-total { display: flex; justify-content: space-between; align-items: baseline; margin-top: 3px; padding-top: 10px; border-top: 3px double rgba(27,42,74,0.22); } .ds-pad-total span:first-child { font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: #56657C; } .ds-pad-total span:last-child { font-family: 'Geist Mono', ui-monospace, monospace; font-size: 15px; font-weight: 600; color: #1B2A4A; }"
+    },
+    {
+      "name": "Rubber Stamp",
+      "kind": "custom",
+      "refersTo": "stamp",
+      "description": "Signature: double-ruled status stamp in crimson or navy ink, multiplied onto paper.",
+      "html": "<div class=\"ds-stamp-paper\"><span class=\"ds-stamp\"><span class=\"ds-stamp-main\">New order</span><span class=\"ds-stamp-sub\">Sea Breeze Café · just now</span></span><span class=\"ds-stamp ds-stamp-navy\"><span class=\"ds-stamp-main\">Packing</span></span></div>",
+      "css": ".ds-stamp-paper { display: flex; gap: 24px; align-items: center; padding: 24px; background: #FBFAF6; } .ds-stamp { display: inline-flex; flex-direction: column; align-items: center; gap: 1px; padding: 5px 12px 4px; border: 2.5px solid currentColor; border-radius: 4px; box-shadow: inset 0 0 0 2px #FBFAF6, inset 0 0 0 3.5px currentColor; color: rgba(196,30,42,0.9); font-family: 'Big Shoulders', 'Arial Narrow', sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; line-height: 1; white-space: nowrap; mix-blend-mode: multiply; transform: rotate(-7deg); transition: transform 0.2s; } .ds-stamp-navy { color: rgba(27,42,74,0.88); transform: rotate(-8deg); } .ds-stamp-main { font-size: 1.35rem; } .ds-stamp-sub { font-size: 0.68rem; letter-spacing: 0.14em; font-weight: 700; } .ds-stamp:hover { transform: rotate(-4deg) scale(1.03); }"
+    },
+    {
+      "name": "Index Tab",
+      "kind": "nav",
+      "refersTo": "index-tab",
+      "description": "Binder divider tabs on the navy band, cycling the three papers and stepping right.",
+      "html": "<ul class=\"ds-tabs\"><li class=\"ds-tab\">Dairy</li><li class=\"ds-tab ds-tab-yellow\" style=\"margin-left:1.25rem\">Vegetables &amp; produce</li><li class=\"ds-tab ds-tab-pink\" style=\"margin-left:2.5rem\">Meat &amp; poultry</li></ul>",
+      "css": ".ds-tabs { list-style: none; margin: 0; padding: 24px 0 24px 24px; background: #1B2A4A; overflow: hidden; display: flex; flex-direction: column; gap: 3px; } .ds-tab { display: flex; align-items: center; height: 44px; padding: 0 16px 0 20px; margin-right: -2rem; border-radius: 6px 0 0 6px; background: #FBFAF6; color: #1B2A4A; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; box-shadow: 0 6px 10px -6px rgba(0,0,0,0.45); transition: transform 0.35s cubic-bezier(0.16,1,0.3,1); } .ds-tab-yellow { background: #F3E4A8; } .ds-tab-pink { background: #F4D3D6; } .ds-tab:hover { transform: translateX(10px); } @media (prefers-reduced-motion: reduce) { .ds-tab, .ds-tab:hover { transition: none; transform: none; } }"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "refersTo": "faq-row",
+      "description": "Native disclosure on ruled exercise-book paper with a crimson margin line.",
+      "html": "<div class=\"ds-ruled\"><details class=\"ds-faq\"><summary>Who decides the price?<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg></summary><p>You do. Restaurants order at the rate on your catalog.</p></details></div>",
+      "css": ".ds-ruled { padding: 24px 24px 24px 84px; background-color: #FBFAF6; background-image: linear-gradient(90deg, transparent 0 63px, rgba(196,30,42,0.35) 63px 64px, transparent 64px); } .ds-faq { border-top: 2px solid rgba(27,42,74,0.8); border-bottom: 1px solid rgba(27,42,74,0.15); } .ds-faq summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 64px; padding: 16px 0; list-style: none; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #1B2A4A; transition: color 0.15s; } .ds-faq summary::-webkit-details-marker { display: none; } .ds-faq summary:hover { color: #C41E2A; } .ds-faq summary:focus-visible { outline: 2px solid #C41E2A; outline-offset: 3px; } .ds-faq svg { flex-shrink: 0; color: #C41E2A; transition: transform 0.3s cubic-bezier(0.16,1,0.3,1); } .ds-faq[open] svg { transform: rotate(45deg); } .ds-faq p { max-width: 62ch; margin: 0; padding: 0 32px 24px 0; font-family: Inter, sans-serif; font-size: 16px; line-height: 2rem; color: #46556C; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Order Pad",
+    "overview": "The page is the supplier's own purchase-order book, seen from above on a grey desk. Each section shows a piece of stationery that a vendor already handles: an off-white top sheet bound in navy, pink and yellow carbon copies showing underneath, a perforated tear line, a torn bottom edge, pre-printed crimson order numbers, line items in a typewriter mono, rubber stamps that land in crimson or navy ink, and notes in a shopkeeper's hand. Features are shown as the slip of paper they replace (dispatch slip, out-of-stock carbon, price tag, delivery slip, a binder of divider tabs), never as icon tiles.\n\nDensity is calm: one paper object per idea, wide desk around it, with editorial serif headlines carrying the argument and the paper carrying the proof. Colour stays inside the Alayn brand pair (logo navy and crimson). The pinks and yellows are carbon-copy paper, not decoration. Motion is physical: lines type in from left to right, stamps come down large and settle hard, the pad takes the knock, and a sheet tears off along its perforation.\n\nAll order data on paper is sample data, and the pad's binding says so (\"Example\").",
+    "keyCharacteristics": [
+      "Paper objects on a grey desk, alternating with white and navy bands.",
+      "Navy and crimson ink only; pink and yellow appear only as carbon paper.",
+      "Five type voices, each with one job: serif headline, sans body, mono line item, condensed stamp lettering, handwriting.",
+      "Paper is slightly rotated (-3° to +2°); nothing on the desk sits perfectly square.",
+      "One soft, navy-tinted shadow under each paper stack; no other elevation."
+    ],
+    "rules": [
+      { "name": "The Two Inks Rule", "body": "Anything that reads as printed, written or stamped is in navy or crimson ink. No third hue appears on paper.", "section": "colors" },
+      { "name": "The Carbon Is Paper Rule", "body": "Pink and yellow exist only as paper surfaces (carbons, slips, tags, divider tabs), never as text, borders or accents.", "section": "colors" },
+      { "name": "The Crimson Means Ink-on-Purpose Rule", "body": "Crimson marks something the supplier or the press put there on purpose: an order number, a stamp, a correction, the call to action. It is not a general highlight colour.", "section": "colors" },
+      { "name": "The Right Voice Rule", "body": "Each face has one job. Data on paper is mono; headings printed on paper are stamp caps; human additions are hand; arguments are serif; explanation is sans. Don't swap them.", "section": "typography" },
+      { "name": "The Hand Is Short Rule", "body": "Kalam is limited to short notes of a few words. It never sets a paragraph or a heading.", "section": "typography" },
+      { "name": "The One Light Rule", "body": "All shadows fall straight down and are tinted navy. No coloured glows and no hard offset shadows.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do show every feature as the piece of paper or screen it replaces in the supplier's day, with sample data, and label it as an example.",
+      "Do keep all text on paper in navy or crimson ink, with data in Geist Mono and numbers tabular and right-aligned.",
+      "Do tilt paper slightly (-3° to +2°) and give it the torn edge, perforation and single pad-cast shadow.",
+      "Do use stamp words from the order lifecycle (New order, Packing, Part sent, Delivered, Out of stock).",
+      "Do render `<InkDefs />` once per page whenever stamps are used.",
+      "Do honour reduced motion: show the finished, stamped state immediately and turn off the tab slide.",
+      "Do keep Muted Slate on pad paper, white or desk (5.0:1 on desk). On pink carbon, use navy for small text."
+    ],
+    "donts": [
+      "Don't use pink or yellow as text, borders or highlight colour; they are paper.",
+      "Don't set paragraphs or headings in Kalam, or use stamp caps for running text.",
+      "Don't use icon tiles, feature cards with glyph icons, or a SaaS hero-and-grid layout.",
+      "Don't add coloured glows, gradients on paper, or hard offset shadows.",
+      "Don't show real restaurant logos, supplier counts, order counts or testimonials on the pad.",
+      "Don't write \"challan\"; say purchase order, order pad or delivery slip.",
+      "Don't put small Muted Slate (4.3:1) or crimson (4.2:1) text on carbon pink."
+    ]
+  }
+}
